@@ -1,0 +1,31 @@
+.bailarines__equipo{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.foto__equipo{
+    margin: 20px 0 0 0 ;
+}
+.foto__equipo img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    
+}
+.seccion__talentos{
+    margin: 20px 0;
+}
+
+.talento__img{
+     width: fit-content;
+     height: 150px;
+
+}
+.talento__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,373 @@
+hr{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    opacity: 1;
+    margin-top: 1rem;
+}
+.linea__subrayado{
+    margin: 1rem auto;
+}
+.logo_vet{
+    width: 180px;
+}
+.btn__menu{
+    width: 60px;
+    height: 60px;
+}
+.btn__menu img{
+    width: 100%;
+}
+.nav_fondo{
+    background-color: black !important;
+    padding: 5px 25px;
+}
+.item_color{
+    color: white;
+}
+.btn_donar{
+    padding: 5px 40px;
+}
+
+.navbar-nav{
+    margin-right: 20px;
+}
+.hero_fondo{
+    background-image: url(../assets/img/hero.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+   
+}
+.hero_fondo::before {
+    content: '';
+    position: absolute; /* Posiciona el pseudo-elemento sobre el contenedor */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad */
+    z-index: 1; /* Asegúrate de que esté detrás del contenido */
+}
+.hero_content {
+    position: relative; /* Para que esté por encima del pseudo-elemento */
+    z-index: 2; /* Asegúrate de que el texto esté por encima */
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado alrededor del texto */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.btn_cta{
+    border-color: white;
+    color: white;
+}
+.btn_cta:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.95;
+}
+
+.seccion_nosotros{
+    margin: 20px;
+    flex-wrap: wrap-reverse;
+}
+.nosotros_img{
+    object-fit: cover;
+    object-position: center;
+    height: 350px;
+    width: 100%;
+}
+.titulo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.nosotros_info{
+    padding: 0;
+    margin: 20px 0;
+}
+
+.btn_negro{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.proyectos__img{
+    height: 250px;
+}
+.proyectos__img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.seccion__servicios{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.donar_fondo{
+    background-image: url(../assets/img/presentacion2.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+   
+}
+.donar_fondo::before {
+    content: '';
+    position: absolute; /* Posiciona el pseudo-elemento sobre el contenedor */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad */
+    z-index: 1; /* Asegúrate de que esté detrás del contenido */
+}
+.donar_content {
+    position: relative; /* Para que esté por encima del pseudo-elemento */
+    z-index: 2; /* Asegúrate de que el texto esté por encima */
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado alrededor del texto */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transformando_info{
+    padding: 0;
+    margin: 20px 0;
+}
+
+    .card {
+      border: none;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+
+    .carousel-item {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+/*SECCION AUSPICIADORES*/
+.seccion__auspiciador--logo{
+    height: 130px;
+}
+.seccion__auspiciador--logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/***SECCION GALERIA****/
+.galeria__seccion{
+    background-color: #f6f6f6;
+    padding: 30px 0 20px;
+}
+  .grid-item {
+    padding: 0.5rem;
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+/******FOOTER*******/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+}
+
+/* FOOTER****/
+.footer__contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.footer__contenido> section{
+    /*max-width: fit-content;*/
+    padding-block-end: 40px;
+}
+.footer__logo{
+    width: 200px;
+}
+.footer__contenido p{
+    font-size: 14px;
+}
+.contactanos__info section{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.contactanos__info section img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer__contenido h3{
+    text-align: start;
+    font-size: 20px;
+}
+.contactanos__info section p{
+    margin: 0;
+    text-align: start;
+}
+.terminos__seccion{
+    text-align: start;
+}
+.siguenos__seccion h3{
+    text-align: center;
+}
+.siguenos__iconos img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.fila__galeria2{
+    height: 250px;
+}
+.fila__galeria1{
+    height: 250px;
+}
+.fila__galeria{
+    height: 500px;
+}
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+/* SECCION COPY*/
+.seccion__copy{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding: 10px;
+}
+.seccion__copy p{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    @media (max-width: 768px) {
+      .card-container {
+        flex-direction: column;
+      }
+      .hero_fondo{
+        height: 60vh;
+      }
+      .siguenos__seccion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .fila__galeria{
+        display: none;
+      }
+    }
+
+
+@media (min-width: 768px) {
+    .m-md-3 {
+      
+        margin: 0 !important;
+    }
+    .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+        width: auto;
+    }
+    .seccion_nosotros{
+        margin: 40px auto;
+    }
+    .nosotros_info{
+        padding: 0 0 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .transformando_info{
+        padding: 0 30px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: end;
+    }
+}
+
+/* Asegura que el item activo y los próximos items usen flexbox */
+.carousel-inner .carousel-item {
+    display: none; /* Oculta todos los items inicialmente */
+}
+
+.carousel-inner .carousel-item.active {
+    display: flex; /* Muestra solo el item activo */
+}
+/* Para pantallas pequeñas (mostramos 1 item a la vez) */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item.active > div {
+        flex: 0 0 100%; /* Un item ocupa el 100% del espacio */
+        display: block;
+    }
+}
+
+/* Para pantallas grandes (mostramos 3 items) */
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item.active {
+        display: flex;
+        flex-direction: row; /* Los items se alinearán horizontalmente */
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex; /* Asegura que el siguiente o anterior item también se muestre */
+    }
+
+    /* Hacemos que se muestren tres elementos a la vez */
+    .carousel-inner .carousel-item.active > div {
+        flex: 0 0 33.33%; /* Cada elemento toma un tercio del espacio */
+        display: block;
+    }
+}
+

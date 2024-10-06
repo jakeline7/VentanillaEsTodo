@@ -1,0 +1,14 @@
+.seccion__valores{
+    margin: 0;
+    flex-wrap: wrap-reverse;
+}
+.seccion__valores--img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 350px;
+}
+.seccion__valores--info{
+    display: flex;
+    padding: 30px;
+}
